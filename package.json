@@ -1,8 +1,8 @@
 {
-  "homepage": "https://ferk94.github.io/Portfolio/",
-  "name": "react-nav",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ferk94.github.io/Portfolio/",
   "dependencies": {
     "@brainhubeu/react-carousel": "^2.0.4",
     "@testing-library/jest-dom": "^5.16.2",
