@@ -1,34 +1,39 @@
 .project-container {
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     background-image: url('https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     height: 95vh;
 }
 
-.project-container > h1 {
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-container > h1 {
     display: flex;
     justify-content: center;
     color: white;
 }
 
-.project-container > h2 {
+.text-container > h2 {
     display: flex;
     justify-content: center;
     color: white;
 }
 
-.project-container > h3 {
+.text-container > h3 {
     color: white
 }
 
-.project-container > h4 {
+.text-container > h4 {
     display: flex;
     justify-content: center;
     color: white;
 }
 
-.project-container > p {
+.text-container > p {
     display: flex;
     justify-content: center;
     color: white;

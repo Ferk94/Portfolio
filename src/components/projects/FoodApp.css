@@ -4,6 +4,7 @@
     background-image: url('https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     height: 95vh;
+    overflow-wrap: break-word;
 }
 
 .project-container > h1 {
@@ -30,6 +31,10 @@
     display:flex;
     justify-content: center;
     flex-direction: row;
+    color: white;
+}
+
+.text {
     color: white;
 }
 

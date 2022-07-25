@@ -24,7 +24,8 @@ const Qbook = () => {
     <div>
       <ProjectsNavBar/>
     <div ref={targetRef} className='project-container'>
-       <h1>VoltVisual Gallery</h1>
+      <div className='text-container'>
+      <h1>VoltVisual Gallery</h1>
        <h2>Breve resumen</h2>
        <h4>Proyecto realizado para cliente particular. Usuario administrador que cuenta con diferentes paneles
        donde se registran empresas, coordinadores, excursiones y por último fotos, todas asociadas pertinentemente.
@@ -52,10 +53,10 @@ const Qbook = () => {
         info q necesitamos como el token.
         se utilizó bootstrap, reactstrap, Material-ui y Formik así como css puro para los estilos.
        </p>
-       <br/>
-       <a href='http://qbook.digital' target='_blank'>Link a la web de VoltVisual Gallery</a>
+      </div>
        <div className='video-container'>
         <ReactPlayer width={`${dimensions.width < 900 ? "300px" : "650px"}`} height={`${dimensions.width < 900 ? "166px" : "360px"}` } url='https://youtu.be/9b3nJn8gZAc'/>
+       <a href='http://qbook.digital' target='_blank'>Link a la web de VoltVisual Gallery</a>
        </div>
     </div>
     </div> 
