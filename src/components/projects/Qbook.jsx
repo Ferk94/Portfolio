@@ -56,7 +56,7 @@ const Qbook = () => {
       </div>
        <div className='video-container'>
         <ReactPlayer width={`${dimensions.width < 900 ? "300px" : "650px"}`} height={`${dimensions.width < 900 ? "166px" : "360px"}` } url='https://youtu.be/9b3nJn8gZAc'/>
-       <a href='http://qbook.digital' target='_blank'>Link a la web de VoltVisual Gallery</a>
+       <a href='http://www.qbook.digital' target='_blank'>Link a la web de VoltVisual Gallery</a>
        </div>
     </div>
     </div> 
