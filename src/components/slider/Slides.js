@@ -23,7 +23,7 @@ const slidesInfo = [
 const slides = slidesInfo.map(slide => (
     <div className='slide-container'>
         <Link to={`/${slide.desc}`}>
-            <img src={slide.src} alt={slide.alt}/>
+            <img className='slide-img' src={slide.src} alt={slide.alt}/>
         </Link>
         <div className='slide-desc'>
             <span>{slide.desc}</span>

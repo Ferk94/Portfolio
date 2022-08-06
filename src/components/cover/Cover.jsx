@@ -9,8 +9,8 @@ const Cover = () => {
   return (
     <div className='cover-container'>
         <video className='video' src={coverVideo} autoPlay loop muted />
-        <h1>Fernando Kaganovicz</h1>
-        <p>FullStack Developer</p>
+        <h1>FullStack Developer</h1>
+        <p>Bienvenidos a mi portfolio personal</p>
     </div>
   )
 }

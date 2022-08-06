@@ -48,7 +48,7 @@ const FoodApp = () => {
         se utilizó css puro para los estilos.
        </div>
        <br/>
-       <a href='http://notFound' target='_blank'>Link en desarrollo</a>
+       <a href='https://food-app-ferk94.herokuapp.com' target='_blank'>Web Food-App</a>
        <div className='video-container'>
         {/* <ReactPlayer width={`${dimensions.width < 900 ? "300px" : "650px"}`} height={`${dimensions.width < 900 ? "166px" : "360px"}` } url='https://youtu.be/9b3nJn8gZAc'/> */}
         <div className='text'>Video en desarrollo</div>

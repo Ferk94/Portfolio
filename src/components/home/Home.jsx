@@ -3,6 +3,7 @@ import Cover from '../cover/Cover';
 import About from '../about/About';
 import Slider from '../slider/Slider';
 import NavBar from '../../layouts/NavBar';
+import './Home.css';
 
 const Home = () => {
 
@@ -19,11 +20,13 @@ const Home = () => {
 
 
   return (
-    <div>
+    <div className='home-container'>
       <NavBar isScrolling={scrollHeight}/>
       <Cover/>
       <About/>
-      <Slider/>
+      <div className='slider-container'>
+        <Slider/>
+      </div>
     </div>
   )
 }

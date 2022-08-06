@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '@brainhubeu/react-carousel';
+import Carousel, { autoplayPlugin, slidesToShowPlugin } from '@brainhubeu/react-carousel';
 import Slides from './Slides';
 import '@brainhubeu/react-carousel/lib/style.css';
 import './Slider.css';
@@ -11,12 +11,42 @@ const Slider = () => {
         <h1>My Projects</h1>
       </div>
       <Carousel
-        arrows
+        plugins={[
+          'arrows',
+          'infinite',
+          {
+            resolve: slidesToShowPlugin,
+            options: {
+              numberOfSlides: 3,
+            }
+          },
+          'centered'
+        ]}
+        breakpoints={{
+          640: {
+            plugins: [
+             {
+               resolve: slidesToShowPlugin,
+               options: {
+                numberOfSlides: 1
+               }
+             },
+           ]
+          },
+          900: {
+            plugins: [
+             {
+               resolve: slidesToShowPlugin,
+               options: {
+                numberOfSlides: 2
+               }
+             },
+           ]
+          }
+        }}
         slidesPerPage={3}
-        infinite
         animationSpeed={200}
-        center
-        offSet={50}
+        offset={50}
         itemWidth={400}
         slides={Slides}
       />
